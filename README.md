@@ -5,7 +5,7 @@ The Donation Hub is a web-based platform designed to streamline the process of d
 The system ensures transparency and accountability by providing donors and NGOs with real-time updates on donation statuses, helping both parties manage resources efficiently. By digitizing the donation process, this system reduces manual record-keeping, minimizes errors, and encourages more people to participate in charitable activities.
 
 ## Key Features
-# For Donors
+### For Donors
 
 Register/Login to the system.
 
@@ -17,7 +17,7 @@ Track donation status: Pending → Accepted → Delivered.
 
 View donation history.
 
-# For NGOs
+### For NGOs
 
 Register/Login to the system.
 
@@ -27,7 +27,7 @@ View incoming donations and accept/reject them.
 
 Update donation fulfillment status.
 
-# System Features
+### System Features
 
 Manage users (Donors, NGOs, Admin).
 
@@ -62,17 +62,17 @@ Python 3.8 or higher
 A Supabase Account
 Git(push,cloning)
 
-# 1.clone or Download the Project
-# option 1:clone with git
+### 1.clone or Download the Project
+#### option 1:clone with git
 git clone
-# option 2:Download and extract the zip files
+####  option 2:Download and extract the zip files
 
 ### 2.Install Dependencies
 
-# Install all required Python packages
+#### Install all required Python packages
 pip install -r requirements.txt
 
-## 3.Setup Supabase Database
+### 3.Setup Supabase Database
 1.Create a Supabase Project
 2.Create the Tasks Table:
 -Go to the SQL Editor in your Supabase dashboard
@@ -132,7 +132,7 @@ python main.py
 
 ## How to use
 1.Donors:
--Login/Register  Browse requirements → Donate → Track status → View history.
+-Login/Register → Browse requirements → Donate → Track status → View history.
 
 2.NGOs:
 -Login/Register → Post requirements → Accept/reject donations → Update fulfillment status.
@@ -146,7 +146,7 @@ python main.py
 **Database**:Supabase (PostgreSQL-based backend-as-a-service)
 **Languages**:Python, SQL
 
-### Key Components
+## Key Components
 1.User Authentication & Role Management
 2.Donation & Requirement Matching System
 3.Donation Tracking Module
